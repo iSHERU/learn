@@ -1,0 +1,13 @@
+[0;1;32m●[0m pipewire.service - PipeWire Multimedia Service
+     Loaded: loaded (]8;;file://sher/usr/lib/systemd/user/pipewire.service/usr/lib/systemd/user/pipewire.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Wed 2025-01-15 17:45:47 PKT; 2h 8min ago
+TriggeredBy: [0;1;32m●[0m pipewire.socket
+   Main PID: 1956 (pipewire)
+      Tasks: 3 (limit: 18744)
+     Memory: 8.6M (peak: 9.3M)
+        CPU: 3.618s
+     CGroup: /user.slice/user-1000.slice/user@1000.service/session.slice/pipewire.service
+             └─[0;38;5;245m1956 /usr/bin/pipewire[0m
+
+Jan 15 17:45:47 sher systemd[1940]: Started pipewire.service - PipeWire Multimedia Service.
+Jan 15 17:45:47 sher pipewire[1956]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files[0m
